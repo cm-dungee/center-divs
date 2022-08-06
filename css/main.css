@@ -94,44 +94,68 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
 html {
-  background-color: #000;
-  height: 100%;
+	background-color: #004C54;
+	height: 100%;
 }
-
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
-  height: 100%;
+	font-family: 'Nokora', sans-serif;
+	color: #fff;
+	letter-spacing: .1em;
+	font-size: 1.25em;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-
-.wrapper {
-  /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
-  display: flex;
-  justify-content: space-between;
+main {
+	width: 75%;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 }
-
-.div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #000;
-  height: 300px;
-  width: 30%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+header {
+	font-family: 'Playfair Display', serif;
+	font-size: 3rem;
+	font-weight: 700;
+	/* border: 1px dotted yellow; */
 }
-
-.div-1, .div-2 {
-	border-right: 1px solid #3B3B3B;
+.intro {
+	padding: .5rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+	/* border: 1px dotted yellow; */
 }
-
+span {
+	text-transform: uppercase;
+	text-shadow: 1.5px 1.5px #000;
+	font-weight: 800;
+}
+.about {
+	display: flex;
+	justify-content: center;
+	padding: 1em;
+	/* border: 1px dotted yellow; */
+}
+.about div {
+	color: #fff;
+	font-size: 1.1rem;
+	width: 100%;
+	padding: 1em;
+}
+.col-1, .col-2 {
+	border-right: 2px solid #A5ACAF;
+	border-radius: 3px;
+}
+footer {
+	padding: 1em;
+}
+.border {
+	border-top: 4px solid #A5ACAF;
+	border-radius: 3px;
+}
 
 
 
